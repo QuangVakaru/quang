@@ -15,7 +15,13 @@ int tich(int a, int b)
 {
 	return a*b;
 }
-
+void kiemTraChanLe(a)
+{
+	if(a%2==0){
+		cout<<"so chan";
+	}
+	cout<<"so le";
+}
 
 int main()
 {
@@ -35,7 +41,8 @@ int main()
 		cout<<"Tong 2 so la: "<<tong(a,b)<<endl;
 	if(phepToan=='*')
 		cout<<"Tich 2 so la: "<<tich(a,b)<<endl;
-
+	kiemTraChanLe(a);
+	cout<<endl;
 	cout<<endl;
 	system("pause");
 	return 0;
