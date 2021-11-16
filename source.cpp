@@ -15,12 +15,21 @@ int tich(int a, int b)
 {
 	return a*b;
 }
+<<<<<<< HEAD
 void kiemTraChanLe(a)
 {
 	if(a%2==0){
 		cout<<"so chan";
 	}
 	cout<<"so le";
+=======
+void kiemTraChanLe(int a)
+{
+	if(a%2==0){
+		cout<<"So chan";
+	}
+	cout<<"So le";
+>>>>>>> ChanLe
 }
 
 int main()
@@ -42,7 +51,10 @@ int main()
 	if(phepToan=='*')
 		cout<<"Tich 2 so la: "<<tich(a,b)<<endl;
 	kiemTraChanLe(a);
+<<<<<<< HEAD
 	cout<<endl;
+=======
+>>>>>>> ChanLe
 	cout<<endl;
 	system("pause");
 	return 0;
